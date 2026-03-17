@@ -1,0 +1,29 @@
+encoding: utf-8
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "吴靖的个人主页"
+  navbar:
+    background: "#2E8B57"
+    foreground: white
+    left:
+      - href: index.qmd
+        text: 首页
+      - href: about.qmd
+        text: 关于我
+      - href: research.qmd
+        text: 研究方向
+
+format:
+  html:
+    theme:
+      light: sandstone
+      dark: slate
+    css:
+      - styles.css
+      - https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css
+    toc: true
+    toc-depth: 3
+    toc-location: right

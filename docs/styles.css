@@ -1,0 +1,84 @@
+/* 全局字体与颜色 */
+body {
+  font-family: "Microsoft Yahei", sans-serif;
+  line-height: 1.6;
+}
+
+/* 导航栏背景 */
+.navbar {
+  background-color: #2E8B57;
+}
+
+/* 导航栏字体 */
+.navbar-nav .nav-link {
+  font-size: 1.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+}
+
+/* 当前页面高亮 */
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #f0fff0;
+  text-decoration: underline !important;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+}
+
+/* 悬停效果 */
+.navbar-nav .nav-link:hover {
+  color: #f0f8ff !important;
+  text-decoration: underline !important;
+}
+
+/* 个人信息卡片 */
+.card {
+  background: #F0F8F0;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 圆形头像 */
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #2E8B57;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  float: left;
+  margin-right: 15px;
+}
+
+/* 清除浮动 */
+.card::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 标签样式 */
+.tag {
+  display: inline-block;
+  background: #E8F5E9;
+  color: #2E8B57;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  margin-right: 5px;
+}
+
+/* 引用块 */
+blockquote {
+  border-left: 4px solid #2E8B57;
+  padding-left: 15px;
+  color: #555;
+  font-style: italic;
+}
+

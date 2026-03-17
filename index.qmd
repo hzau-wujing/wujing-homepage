@@ -1,0 +1,22 @@
+---
+title: "吴靖个人主页"
+---
+
+
+# 欢迎来到我的主页 🌿
+
+<div class="card">
+  <h2>吴靖</p>
+  <p>Wu Jing</h2>
+  <p>华中农业大学 林业 硕士研究生</p>
+  <p>热爱生活，认真学习，积极向上的理工科学生</p>
+  <p>
+    <span class="tag">🌿 林业</span>
+    <span class="tag">🐍 Python</span>
+    <span class="tag">📊 数据分析</span>
+    <span class="tag">📝 Quarto</span>
+  </p>
+</div>
+
+## 联系方式
+- 📧: <a href="mailto:1958097225@qq.com">1958097225@qq.com</a>

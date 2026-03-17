@@ -1,0 +1,9 @@
+---
+title: "研究方向"
+---
+
+<div class="card">
+  <!-- 标题在前 -->
+  <h2>基于弹性设计理念下的凉风垭广场景观改造设计</h2>
+  <img src="pic.jpg" alt="广场景观改造设计示意图" style="width: 100%; height: auto; border-radius: 6px;">
+</div>
